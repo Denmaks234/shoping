@@ -1,0 +1,54 @@
+.card{
+    background: #FF007A;
+    padding: 20px;
+    width: 210px;
+    border-radius: 22px;
+    margin-top: 40px;
+    
+    margin-left: 40px;
+    
+    .game{
+      border-radius: 18px;
+      margin-left: 15px;
+    }
+    &:hover{
+      transition: all ease 1s;
+      transform: translateY(-8px)
+    }
+    p{
+      font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  
+  color: #FFFFFF;
+    }
+    .favorite{
+      position: absolute;
+      margin-left: 153px;
+    }
+    .cardPrice{
+      span{
+        font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+      }
+      b{
+        font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  
+  color: #000000;
+  
+      }
+    }
+   
+  }

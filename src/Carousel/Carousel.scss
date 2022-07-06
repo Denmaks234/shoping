@@ -1,0 +1,23 @@
+.main-container{
+    height: 300px;
+    width: 636px;
+}
+
+.window{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+     position: relative;
+}
+.all-pages-container{
+    height: 100%;
+    display: flex;
+   transition: all ease 2s;
+}
+.arrow{
+    position: absolute;
+    fill: #FFF9E5;
+    top: 130px;
+    right: 20px;
+    cursor: pointer;
+}
